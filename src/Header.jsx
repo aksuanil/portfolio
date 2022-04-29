@@ -33,9 +33,9 @@ export default function Header() {
     }
     
     function SVS_B(eAmt, where) {
-        if(where == "center" || where == "")
+        if(where === "center" || where === "")
             window.scrollBy(0, eAmt / 2);
-        if (where == "top")
+        if (where === "top")
             window.scrollBy(0, eAmt);
     }
 
