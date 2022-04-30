@@ -23,14 +23,14 @@ export default function Header() {
         }
     }
 
-    const scrollTo = (id) => {
-        debugger
-        const violation = document.getElementById(id);
-        window.scrollTo({
-            behavior: 'smooth',
-            top: (violation.offsetTop) - 90,
-        });
-    };
+    // const scrollTo = (id) => {
+    //     debugger
+    //     const violation = document.getElementById(id);
+    //     window.scrollTo({
+    //         behavior: 'smooth',
+    //         top: (violation.offsetTop) - 90,
+    //     });
+    // };
 
     function SmoothVerticalScrolling(e, time, where) {
         let elem = document.getElementById(e);
