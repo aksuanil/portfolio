@@ -38,17 +38,17 @@ function App() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body class="debug-screens" />
+      <body className={`${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`} />
       <div className="bg-gradient-to-l from-zinc-900 via-zinc-900 to-black text-white scroll-smooth	overflow-hidden">
         <Header />
         <div className='container mx-auto gap-8 flex flex-col'>
-            <Hero />
-            <About />
-            <Skills />
-            <Works />
-            <Contack />
-            <Footer />
+          <Hero />
+          <About />
+          <Skills />
+          <Works />
+          <Contack />
         </div>
+        <Footer />
       </div></>
 
   );

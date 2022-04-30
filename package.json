@@ -6,13 +6,15 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "file-saver": "^2.0.5",
     "react": "^18.0.0",
     "react-awesome-reveal": "^3.8.1",
     "react-dom": "^18.0.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-items-carousel": "^2.8.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
     "smoothscroll-polyfill": "^0.4.4",
-    "tailwindcss-border-gradient-radius": "^3.0.1",
-    "tailwindcss-border-gradients": "^2.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

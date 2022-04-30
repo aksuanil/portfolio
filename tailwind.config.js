@@ -23,5 +23,5 @@ module.exports = withAnimations({
     },
   },
   plugins: [
-    require('tailwindcss-debug-screens'),require('tailwindcss-border-gradients'),
+    require('tailwindcss-debug-screens'),
   ],});
