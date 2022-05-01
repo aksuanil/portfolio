@@ -13,6 +13,9 @@ module.exports = withAnimations({
       'Spectral': ['Spectral', 'sans-serif'],
     },
     extend: {
+      borderColor: ["autofill"],
+      shadowFill: ["autofill"],
+      textFill: ["autofill"],
       animation: {
         shine: "shine 1s",
       },
@@ -32,6 +35,6 @@ module.exports = withAnimations({
     },
   },
   plugins: [
-    require('tailwindcss-debug-screens'),
+    require('tailwindcss-debug-screens'),require("tailwindcss-autofill"),require("tailwindcss-shadow-fill"),require("tailwindcss-text-fill"),
   ],
 });

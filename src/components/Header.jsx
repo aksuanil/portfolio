@@ -78,7 +78,7 @@ c69 219 201 380 391 479 77 39 187 76 251 84 19 2 629 4 1355 3 l1320 -1 78
                     </svg>
                 </button>
                 <div className='flex justify-end w-full sm:w-4/5 lg:w-3/5 border-b-2 border-zinc-700 overflow-hidden mx-[5vw] '>
-                    <div className='flex flex-row justify-evenly sm:justify-between w-full sm:w-5/6 md:w-4/6 lg:w-4/6 text-[5vw] sm:text-2xl'>
+                    <div className='font-Aldrich flex flex-row justify-evenly sm:justify-between w-full sm:w-5/6 md:w-4/6 lg:w-4/6 text-[5vw] sm:text-2xl'>
                         <button className="relative group sm:h-12" onClick={() => savePdf()}>
                             <span className='flex gap-2 items-center mx-4'> Resume
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">

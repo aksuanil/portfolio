@@ -12,7 +12,10 @@
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
     "smoothscroll-polyfill": "^0.4.4",
+    "tailwindcss-autofill": "^1.0.2",
     "tailwindcss-selection-variant": "^0.1.0",
+    "tailwindcss-shadow-fill": "^1.0.1",
+    "tailwindcss-text-fill": "^0.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
