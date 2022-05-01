@@ -12,7 +12,7 @@ export default function Contact() {
                     <div className='flex flex-col gap-8 sm:gap-12 text-center sm:text-left'>
                         <div class="w-full md:w-[48rem] md:max-w-full">
                             <div class="p-6 sm:rounded-md">
-                                <form name="contact" data-netlify="true">
+                                <form name="contact" method="POST" data-netlify="true" netlify>
                                     <label class="block mb-6">
                                         <span>Your name</span>
                                         <input
