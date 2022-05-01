@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className='hover:underline underline-offset-2'><a target="_blank" rel="noopener noreferrer" href="https://github.com/aksuanil">GitHub</a></div>
                     <div className='hover:underline underline-offset-2'><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/aksuanil_">Twitter</a></div>
                 </div>
-                <div class="block bg-gradient-to-r from-transparent via-zinc-600 to-transparent w-full bg-[length:80%_2px] bg-no-repeat bg-center pb-[6px]" />
+                <div className="block bg-gradient-to-r from-transparent via-zinc-600 to-transparent w-full bg-[length:80%_2px] bg-no-repeat bg-center pb-[6px]" />
                 <div className='text-sm mt-3 flex gap-2 flex-col'>
                     <div>Designed & developed by Anıl Aksu</div>
                     <div>2022 Istanbul</div>

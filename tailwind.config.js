@@ -4,6 +4,14 @@ const withAnimations = require('animated-tailwindcss');
 module.exports = withAnimations({
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    fontFamily: {
+      'Aldrich': ['Aldrich', 'sans-serif'],
+      'BungeeOutline': ['"Bungee Outline"', 'serif'],
+      'Iceberg': ['Iceberg', 'serif'],
+      'Karla': ['"Karla"', 'serif'],
+      'Nova-Square': ['"Nova Square"', 'serif'],
+      'Spectral': ['Spectral', 'sans-serif'],
+    },
     extend: {
       animation: {
         shine: "shine 1s",
@@ -14,6 +22,7 @@ module.exports = withAnimations({
         '2500': '2500ms',
         '3000': '3000ms',
         '3500': '3500ms',
+        '5000': '5000ms',
       },
       keyframes: {
         shine: {
@@ -24,4 +33,5 @@ module.exports = withAnimations({
   },
   plugins: [
     require('tailwindcss-debug-screens'),
-  ],});
+  ],
+});
