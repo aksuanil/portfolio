@@ -5,6 +5,7 @@ import Contack from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
 import Skills from './components/Skills';
+import thumbnail from './assets/images/thumbnail2.png'
 
 function App() {
 
@@ -39,6 +40,15 @@ function App() {
   return (
     <>
       <div>
+        <meta property='og:title' content='Anıl Aksu'/>
+        <meta property='og:image' content={thumbnail}/>
+        <meta property='og:description' content='Full stack web developer'/>
+        <meta property='og:url' content='https://aksuanil.dev/'/>
+        <meta property='og:image:width' content='1200' />
+        <meta property='og:image:height' content='643' />
+
+        <meta property="og:type" content='website' />
+
         <div className={`${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
