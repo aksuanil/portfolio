@@ -37,7 +37,7 @@ export default function Skills() {
         <div className='flex flex-col items-center animate-fadeIn animate-slower '>
           <div className='flex flex-col justify-center items-center w-10/12 py-10 '>
             <div className=' text-xl lg:text-2xl'>Skills</div>
-            <div className='w-10/12 md:w-4/5 text-justify tracking-wide my-6'>I am a JavaScript enthusiast learning/developing in mainly on React.js. I have solid understanding of modern JavaScript frameworks and CSS frameworks like Tailwind. I am also working with .NET and MS SQL in my current occupation. </div>
+            <div className='w-11/12 md:w-4/5 text-justify tracking-wide my-6'>I am a JavaScript enthusiast learning/developing in mainly on React.js. I have solid understanding of modern JavaScript frameworks and CSS frameworks like Tailwind. I am also working with .NET and MS SQL in my current occupation. </div>
             <div className='flex flex-row mt-4 md:gap-8 lg:gap-14 2xl:gap-20 justify-evenly lg:justify-center text-center w-full overflow-visible'>
               {/* <Carousel
             itemPadding={[0,20,0,0]}

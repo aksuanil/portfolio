@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Skills from './components/Skills';
 
-
 function App() {
 
   const callback = function (entries) {
@@ -26,6 +25,17 @@ function App() {
     observer.observe(target);
   });
 
+  var style = document.createElement("style");
+  style.innerHTML = `::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #18181B; /* or add it to the track */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #267E61;
+  }`;
+  document.head.appendChild(style);
+
   return (
     <>
       <div>
@@ -39,10 +49,9 @@ function App() {
               <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet" /> */}
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       </div>
-
-      <div className="bg-gradient-to-l from-zinc-900 via-zinc-900 to-black text-white scroll-smooth	overflow-hidden selection:bg-emerald-800 selection:text-white">
+      <div className="scroll-smooth bg-gradient-to-l from-zinc-900 via-zinc-900 to-black text-white overflow-hidden selection:bg-emerald-800 selection:text-white">
         <Header />
         <div className='container mx-auto gap-8 flex flex-col'>
           <Hero />
